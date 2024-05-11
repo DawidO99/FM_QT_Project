@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1920</width>
-    <height>1080</height>
+    <height>1073</height>
    </rect>
   </property>
   <property name="minimumSize">
@@ -26,17 +26,61 @@
    <string notr="true"/>
   </property>
   <widget class="QWidget" name="centralWidget">
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="pushButton_leave_game">
     <property name="geometry">
      <rect>
-      <x>240</x>
-      <y>160</y>
-      <width>80</width>
-      <height>24</height>
+      <x>80</x>
+      <y>250</y>
+      <width>161</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="text">
-     <string>Zamknij</string>
+     <string>WYJDŹ Z GRY</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_new_game">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>30</y>
+      <width>161</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>NOWA GRA</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_load_game">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>140</y>
+      <width>161</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>WCZYTAJ GRE</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>90</y>
+      <width>1281</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>100</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>MiniFootballManager</string>
     </property>
    </widget>
   </widget>
@@ -66,7 +110,7 @@
  </resources>
  <connections>
   <connection>
-   <sender>pushButton</sender>
+   <sender>pushButton_leave_game</sender>
    <signal>clicked()</signal>
    <receiver>MenuClass</receiver>
    <slot>close()</slot>
