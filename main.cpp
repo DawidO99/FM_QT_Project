@@ -4,9 +4,8 @@
 
 int main(int argc, char *argv[])
 {
-    QApplication a(argc, argv);
-    Menu w;
-    w.setWindowState(Qt::WindowMaximized);
-    w.show();
-    return a.exec();
+    QApplication main_window(argc, argv); //tworzymy okno typu .exe
+    Menu window; //tworzymy okno typu Menu
+    window.show(); //wyswietlamy okno typu Menu
+    return main_window.exec(); //zwracamy execa
 }
