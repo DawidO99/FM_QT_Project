@@ -8,6 +8,7 @@ new_game_window::new_game_window(QWidget* parent) :QDialog(parent)
     this->setStyleSheet(
         "background: #ff0000;"
     );
+    connect(ui_start.pushButton, &QPushButton::clicked, this, &exit);
 }
 
 new_game_window::~new_game_window(){}

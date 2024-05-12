@@ -6,9 +6,21 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>400</width>
-    <height>292</height>
+    <width>690</width>
+    <height>491</height>
    </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>600</width>
+    <height>400</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>2960</width>
+    <height>1440</height>
+   </size>
   </property>
   <property name="windowTitle">
    <string>Form</string>
@@ -16,9 +28,9 @@
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>100</x>
-     <y>80</y>
-     <width>261</width>
+     <x>10</x>
+     <y>10</y>
+     <width>461</width>
      <height>131</height>
     </rect>
    </property>
@@ -28,7 +40,20 @@
     </font>
    </property>
    <property name="text">
-    <string>TEST DZIAŁANIA</string>
+    <string>WITAJ W KREATORZE POSTACI.</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>140</y>
+     <width>221</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Wyjdź z gry</string>
    </property>
   </widget>
  </widget>
