@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>690</width>
-    <height>491</height>
+    <height>628</height>
    </rect>
   </property>
   <property name="minimumSize">
@@ -25,13 +25,62 @@
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <widget class="QLabel" name="label">
+  <widget class="QLabel" name="welcome_text">
    <property name="geometry">
     <rect>
-     <x>10</x>
+     <x>0</x>
      <y>10</y>
      <width>461</width>
-     <height>131</height>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: none;</string>
+   </property>
+   <property name="text">
+    <string>WITAJ W KREATORZE POSTACI.</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="exit_game">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>520</y>
+     <width>221</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:navy blue;
+color:white;
+</string>
+   </property>
+   <property name="text">
+    <string>Wyjdź z gry</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="name_input">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>90</y>
+     <width>201</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="give_name">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>50</y>
+     <width>251</width>
+     <height>31</height>
     </rect>
    </property>
    <property name="font">
@@ -40,20 +89,91 @@
     </font>
    </property>
    <property name="text">
-    <string>WITAJ W KREATORZE POSTACI.</string>
+    <string>Jak się nazywasz?</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton">
+  <widget class="QLabel" name="team_name">
    <property name="geometry">
     <rect>
-     <x>10</x>
-     <y>140</y>
-     <width>221</width>
-     <height>141</height>
+     <x>0</x>
+     <y>130</y>
+     <width>381</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Podaj nazwę swojej drużyny : </string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="team_name_input">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>180</y>
+     <width>341</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="team_short">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>220</y>
+     <width>471</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Podaj skrót swojej drużyny (3 znaki) : </string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="accept_button">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>320</y>
+     <width>421</width>
+     <height>24</height>
     </rect>
    </property>
    <property name="text">
-    <string>Wyjdź z gry</string>
+    <string>Zatwierdź</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="team_short_input">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>270</y>
+     <width>361</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="output">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>360</y>
+     <width>421</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
    </property>
   </widget>
  </widget>

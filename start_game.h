@@ -12,6 +12,7 @@ class new_game_window : public QDialog
 public:
 	new_game_window(QWidget* parent = nullptr);
 	~new_game_window();
+	void create();
 
 private:
 	Ui::start_game ui_start;

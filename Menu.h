@@ -2,7 +2,7 @@
 
 #include <QtWidgets/QMainWindow>
 #include "ui_Menu.h"
-#include "start_game.h"
+#include "start_game.h" //dajemy dostep do klas z start_game, zeby zmienic okno
 
 class Menu : public QMainWindow
 {
