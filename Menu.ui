@@ -111,7 +111,8 @@ color:white;</string>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">color:white;</string>
+     <string notr="true">color:white;
+background:none;</string>
     </property>
     <property name="text">
      <string>MiniFootballManager</string>
@@ -125,6 +126,9 @@ color:white;</string>
       <width>1181</width>
       <height>691</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:none;</string>
     </property>
     <property name="text">
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/Menu/photos/robert3.jpg&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
