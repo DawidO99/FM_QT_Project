@@ -4,7 +4,7 @@
 
 Menu::Menu(QWidget* parent) : QMainWindow(parent)
 {
-    this->setWindowState(Qt::WindowMaximized); //ustawiamy okno na maksymaln¹ rozdzielczosc
+    this->setWindowState(Qt::WindowMaximized); //ustawiamy okno na maksymalnÂ¹ rozdzielczosc
     ui.setupUi(this);
     connect(ui.pushButton_new_game, &QPushButton::clicked, this, &Menu::change_window);
     connect(ui.pushButton_load_game, &QPushButton::clicked, this, &Menu::change_window);
