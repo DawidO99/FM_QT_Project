@@ -43,9 +43,15 @@
     <ClCompile Include="start_game.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Downloads\QtWidgetsApplication4\QtWidgetsApplication4\QHoverSensitiveButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="start_game.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\..\..\..\..\Downloads\QtWidgetsApplication4\QtWidgetsApplication4\QHoverSensitiveButton.h">
       <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>

@@ -5,13 +5,8 @@ new_game_window::new_game_window(QWidget* parent) :QDialog(parent)
 {
     this->setWindowState(Qt::WindowMaximized);
     ui_start.setupUi(this);
-    this->setStyleSheet(
-        //"background: #ff0000;"
-        "background-image: url(photos/manager.jpg);"
-        "background-position-y: center;"
-    );
-    connect(ui_start.exit_game, &QPushButton::clicked, this, &exit);
     connect(ui_start.accept_button, &QPushButton::clicked, this, &new_game_window::create);
+    connect(ui_start.exit_game, &QPushButton::clicked, this, &exit);
 }
 
 void new_game_window::create()
