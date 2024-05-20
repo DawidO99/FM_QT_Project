@@ -3,5 +3,6 @@
         <file>photos/background2.jpg</file>
         <file>photos/robert3.jpg</file>
         <file>photos/background.jpg</file>
+        <file>photos/test.jpg</file>
     </qresource>
 </RCC>

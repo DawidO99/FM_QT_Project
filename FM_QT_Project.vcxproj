@@ -92,6 +92,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\..\Downloads\QtWidgetsApplication4\QtWidgetsApplication4\QHoverSensitiveButton.cpp" />
     <ClCompile Include="start_game.cpp" />
     <QtRcc Include="Menu.qrc" />
     <QtUic Include="Menu.ui" />
@@ -102,6 +103,9 @@
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="start_game.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="..\..\..\..\..\..\Downloads\QtWidgetsApplication4\QtWidgetsApplication4\QHoverSensitiveButton.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">

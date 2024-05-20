@@ -12,8 +12,7 @@ public:
     Menu(QWidget *parent = nullptr);
     ~Menu();
     void change_window();
-
 private:
     Ui::MenuClass ui;
-    new_game_window* test; //zmienna typu new_game_window do odpalenia okna
+    new_game_window* new_window; //zmienna typu new_game_window do odpalenia okna
 };

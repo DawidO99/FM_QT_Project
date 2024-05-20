@@ -13,10 +13,10 @@ new_game_window::new_game_window(QWidget* parent) :QDialog(parent)
     this->setStyleSheet(
         "background-image: url(photos/Manager photo.jpg);"
         "background-position: center"
-
     );
-    connect(ui_start.exit_game, &QPushButton::clicked, this, &exit);
+  
     connect(ui_start.accept_button, &QPushButton::clicked, this, &new_game_window::create);
+    connect(ui_start.exit_game, &QPushButton::clicked, this, &exit);
 }
 
 
